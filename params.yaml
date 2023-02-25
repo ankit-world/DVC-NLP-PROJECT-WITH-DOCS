@@ -6,7 +6,7 @@ prepare:
 
 featurize:
   max_features: 3000
-  n_grams: 3
+  n_grams: 2
 
 train:
   seed: 2022
