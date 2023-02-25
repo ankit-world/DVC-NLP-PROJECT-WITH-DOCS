@@ -72,11 +72,11 @@ stages:
       nfiles: 6
     outs:
     - path: prc.json
-      md5: 3db11b42a794e11a64e607e695b66350
-      size: 140914
+      md5: 968ce28bcd01afc7a1950656e8609163
+      size: 140913
     - path: roc.json
-      md5: 6698a6e65203558413960e6ee955e2c2
-      size: 138910
+      md5: 301dff14a569b1474a7dd1ad5d0e6573
+      size: 138909
     - path: scores.json
       md5: 998d585d339f75a78e5691960b51a995
       size: 76
