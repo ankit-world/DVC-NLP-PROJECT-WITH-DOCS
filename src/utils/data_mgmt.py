@@ -30,6 +30,7 @@ def process_posts(fd_in, fd_out_train, fd_out_test, target_tag, split):
             msg = f"Skipping the broken line {line_num}: {e}\n"
             logging.exception(msg)
 
+
 def save_matrix(df, text_matrix, out_path):
     pid_matrix = sparse.csr_matrix(df.pid.astype(np.int64)).T
     label_matrix = sparse.csr_matrix(df.label.astype(np.int64)).T
