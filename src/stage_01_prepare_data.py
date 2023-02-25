@@ -9,7 +9,7 @@ import random
 STAGE = "Prepare_data" ## <<< change stage name 
 
 logging.basicConfig(
-    filename=os.path.join(os.getcwd(),"logs", 'running_logs.log'), 
+    filename=os.path.join("logs", 'running_logs.log'), 
     level=logging.INFO, 
     format="[%(asctime)s: %(levelname)s: %(module)s]: %(message)s",
     filemode="a"
