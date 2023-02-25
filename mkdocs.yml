@@ -4,6 +4,7 @@ site_name: DVC-NLP-PROJECT-WITH-DOCS
 nav:
   - Home: index.md
   - Data-prep-stage: data_prep.md
+  - Featurization-stage: featurization.md
 
 site_author: Ankit Marwaha
 site_description: >-
